@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --no-notify --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --respawn --transpile-only --no-notify --ignore-watch node_modules src/server.ts",
     "start": "ts-node src/server.ts"
   },
   "dependencies": {
